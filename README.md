@@ -1,8 +1,20 @@
-Project Name: Expense Tracker Website
-Description: Create a comprehensive expense tracker where users can record and categorize their expenses, set budgets, and view spending trends over time. This app can help users manage their finances more effectively.
+# **Rejolt_Task_Fellowship_Task_3**  
 
-React JS Usage:
+## **Project Name:**  
+**Expense Tracker Website**  
 
-- Use React components to manage different sections of the app, such as Expense List, Budget Overview, and Categories.
-- Implement a charting library (like Chart.js or D3) to visualize spending trends and budget comparisons.
-- Use React’s state management to handle expenses, categories, and budget limits.
+## **Description:**  
+Create a comprehensive expense tracker where users can:  
+- Record and categorize their expenses.  
+- Set budgets and monitor their progress.  
+- View spending trends over time through interactive visualizations.  
+
+This app is designed to help users manage their finances more effectively and make informed budgeting decisions.  
+
+## **React JS Usage:**  
+- Utilized **React components** to manage different sections of the app, such as:  
+  - **Expense List**  
+  - **Budget Overview**  
+  - **Categories**  
+- Integrated a **charting library** (like Chart.js or D3) to provide clear visualizations of spending trends and budget comparisons.  
+- Used **React’s state management** for efficient handling of expenses, categories, and budget limits.  
