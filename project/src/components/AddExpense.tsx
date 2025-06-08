@@ -25,8 +25,16 @@ const AddExpense = () => {
     date: new Date().toISOString().split('T')[0]
   });
 
+  const [error, setError] = useState<string>('');
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (parseFloat(formData.amount) <= 0) {
+      setError('Amount must be greater than 0.');
+      return;
+    }
+
     addExpense({
       description: formData.description,
       amount: parseFloat(formData.amount),
@@ -67,6 +75,7 @@ const AddExpense = () => {
               onChange={(e) => setFormData({ ...formData, amount: e.target.value })}
               className="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-indigo-500 bg-transparent"
             />
+            {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
           </div>
 
           <div>
