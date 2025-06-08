@@ -4,5 +4,5 @@ Description: Create a comprehensive expense tracker where users can record and c
 React JS Usage:
 
 - Use React components to manage different sections of the app, such as Expense List, Budget Overview, and Categories.
-- Implement a charting library (like Chart.js or D3) to visualize spending trends and budget comparisons.
+- Implement a charting library (like Chart.js) to visualize spending trends and budget comparisons.
 - Use React’s state management to handle expenses, categories, and budget limits.

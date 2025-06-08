@@ -1,5 +1,3 @@
-# **Rejolt_Task_Fellowship_Task_3**  
-
 ## **Project Name:**  
 **Expense Tracker Website**  
 
